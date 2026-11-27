@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Información sobre el Campeonato Mundial de Rally, sus pilotos y sus pruebas.">
+  <title>WRC 2026 | Campeonato Mundial de Rally</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container navbar">
+      <a href="#home" class="logo-container">
+        <img src="imagenes/logo.webp" alt="WRC Logo" class="logo-icon">
+        <span class="logo-text">WRC 2026</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Inicio</a></li>
+          <li><a href="#productos">Calendario</a></li>
+          <li><a href="#quienes-somos">Quiénes somos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="banner-section">
+    <div class="container">
+      <div class="banner-card">
+        <img src="imagenes/wrc1.jpg" alt="Auto de rally en plena competencia" class="banner-img">
+        <div class="banner-content">
+          <p class="banner-eyebrow">Velocidad · técnica · aventura</p>
+          <h1>El mundo del rally</h1>
+          <p>Conocé el Campeonato Mundial de Rally, sus pilotos y las historias de cada prueba.</p>
+          <a href="#productos" class="btn-primary">Explorar el WRC</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="productos" class="productos-section">
+    <div class="container">
+      <h2 class="section-title">WRC</h2>
+      <p class="section-subtitle">Campeonato Mundial de Rally 2026.</p>
+      <div class="productos-flex-container">
+        <article class="producto-card">
+          <a href="oliver-solberg.html" class="producto-img-wrapper" title="Ver información sobre Oliver Solberg">
+            <span class="badge-offer">2026</span>
+            <img src="imagenes/wrc1.jpg" alt="Auto Toyota durante una prueba de rally">
+          </a>
+          <div class="producto-info">
+            <h3 class="producto-titulo">Una definición a 200 metros del final</h3>
+            <p class="producto-descripcion">Oliver Solberg cometió un error antes del final de la Power Stage y se quedó sin opciones de luchar por el campeonato 2026.</p>
+            <div class="producto-footer"><a href="oliver-solberg.html" class="btn-primary">Más información</a></div>
+          </div>
+        </article>
+        <article class="producto-card">
+          <a href="lancia-regreso-wrc.html" class="producto-img-wrapper" title="Conocer la historia de Lancia en el rally">
+            <span class="badge-offer">Nuevo</span>
+            <img src="imagenes/lancia.webp" alt="Lancia">
+          </a>
+          <div class="producto-info">
+            <h3 class="producto-titulo">Lancia y un posible regreso al WRC</h3>
+            <p class="producto-descripcion">Su historia en los rallies y las expectativas sobre un posible regreso en 2027.</p>
+            <div class="producto-footer"><a href="lancia-regreso-wrc.html" class="btn-primary">Más información</a></div>
+          </div>
+        </article>
+        <article class="producto-card">
+          <a href="elfyn-evans.html" class="producto-img-wrapper" title="Leer sobre Elfyn Evans">
+            <span class="badge-offer">Popular</span>
+            <img src="imagenes/elfyn evan.webp" alt="Elfyn Evans, piloto de rally">
+          </a>
+          <div class="producto-info">
+            <h3 class="producto-titulo">Elfyn Evans: velocidad y regularidad</h3>
+            <p class="producto-descripcion">Un perfil del piloto galés y de las habilidades que exige competir en el WRC.</p>
+            <div class="producto-footer"><a href="elfyn-evans.html" class="btn-primary">Más información</a></div>
+          </div>
+        </article>
+        <article class="producto-card">
+          <a href="rally-argentina.html" class="producto-img-wrapper" title="Información sobre el rally en Argentina">
+            <img src="imagenes/argentina wrc.jpg" alt="Paisaje de una prueba de rally en Argentina">
+          </a>
+          <div class="producto-info">
+            <h3 class="producto-titulo">¿Podrá volver el WRC a Argentina?</h3>
+            <p class="producto-descripcion">Un repaso por la historia del Rally Argentina y las expectativas de los aficionados.</p>
+            <div class="producto-footer"><a href="rally-argentina.html" class="btn-primary">Más información</a></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="quienes-somos" class="about-section">
+    <div class="container">
+      <h2 class="section-title">Quiénes somos</h2>
+      <p class="section-subtitle">Somos una página dedicada a compartir información reciente y confiable sobre el WRC.</p>
+      <div class="about-flex-container">
+        <div class="about-img-box"><img src="imagenes/logo.webp" alt="Imagen Quiénes Somos"></div>
+        <div class="about-content">
+          <p>En esta página encontrarás información actualizada sobre el WRC. Priorizamos fuentes confiables para mantenerte al día con el Campeonato Mundial de Rally.</p>
+          <p>Compartimos las noticias más recientes e importantes para que puedas seguir de cerca a los pilotos y sus equipos.</p>
+          <a href="#contacto" class="btn-primary">Contáctanos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto-section">
+    <div class="container">
+      <div class="contacto-panel">
+        <div class="contacto-copy">
+          <h2>Contacto</h2>
+          <p>¿Tenés una consulta o sugerencia sobre el proyecto? Dejanos un mensaje.</p>
+          <p class="contacto-note">El formulario es una demostración y todavía no envía mensajes.</p>
+        </div>
+        <form class="contacto-form" id="contacto-form">
+          <div class="form-group">
+            <label for="contacto-nombre">Nombre</label>
+            <input type="text" id="contacto-nombre" name="nombre" autocomplete="name" required>
+          </div>
+          <div class="form-group">
+            <label for="contacto-email">Correo electrónico</label>
+            <input type="email" id="contacto-email" name="email" autocomplete="email" required>
+          </div>
+          <div class="form-group">
+            <label for="contacto-mensaje">Mensaje</label>
+            <textarea id="contacto-mensaje" name="mensaje" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Enviar mensaje</button>
+          <p id="contacto-status" class="contacto-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-flex-container">
+        <div class="footer-col">
+          <a href="index wrc.html#home" class="logo-container footer-logo">
+            <img src="imagenes/logo.webp" alt="" class="logo-icon">
+            <span class="logo-text">WRC 2026</span>
+          </a>
+          <p class="footer-description">Noticias, pilotos y recorridos del Campeonato Mundial de Rally.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explorá</h4>
+          <ul class="footer-links">
+            <li><a href="index wrc.html#home">Inicio</a></li>
+            <li><a href="index wrc.html#productos">Noticias</a></li>
+            <li><a href="index wrc.html#quienes-somos">Quiénes somos</a></li>
+            <li><a href="index wrc.html#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Redes Sociales</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="social-btn">Facebook</a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-btn">Instagram</a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="social-btn">YouTube</a>
+            <a href="https://www.x.com/" target="_blank" rel="noopener noreferrer" class="social-btn">X</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 WRC 2026. Proyecto educativo sobre el Campeonato Mundial de Rally.</p></div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("contacto-form").addEventListener("submit", function (event) {
+      event.preventDefault();
+      document.getElementById("contacto-status").textContent =
+        "No se envió el mensaje: este formulario aún no está conectado a un servicio de envío.";
+    });
+  </script>
+</body>
+</html>
